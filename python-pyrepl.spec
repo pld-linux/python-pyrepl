@@ -5,7 +5,7 @@ Summary:	pyrepl - a readline-a-like in Python
 Summary(pl):	pyrepl - zastêpca readline w Pythonie
 Name:		python-%{module}
 Version:	0.8.1
-Release:	1
+Release:	2
 License:	Python-style
 Group:		Libraries/Python
 Source0:	http://codespeak.net/%{module}/%{module}-%{version}.tar.gz
@@ -14,7 +14,7 @@ Patch0:		python-pyrepl-pythoni-first-line-path.patch
 URL:		http://codespeak.net/pyrepl/
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
-Requires:	python >= 2.3
+%pyrequires_eq	python-libs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
