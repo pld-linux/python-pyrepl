@@ -1,5 +1,4 @@
 
-%include	/usr/lib/rpm/macros.python
 %define 	module	pyrepl
 
 Summary:	pyrepl - a readline-a-like in Python
