@@ -13,6 +13,7 @@ Source0:	http://codespeak.net/%{module}/%{module}-%{version}.tar.gz
 Patch0:		python-pyrepl-pythoni-first-line-path.patch
 URL:		http://codespeak.net/pyrepl/
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
