@@ -66,7 +66,7 @@ Requires:	%{name} = %{version}-%{release}
 This package contains pythoni utility - an interactive Python
 interpreter with pyrepl module embedded.
 
-%description -l pl utils
+%description utils -l pl
 Pakiet ten zawiera narzêdzie pythoni - interaktywny interpreter
 Pythona z osadzonym weñ modu³em pyrepl.
 
