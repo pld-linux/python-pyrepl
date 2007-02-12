@@ -2,7 +2,7 @@
 %define 	module	pyrepl
 
 Summary:	pyrepl - a readline-a-like in Python
-Summary(pl):	pyrepl - zastêpca readline w Pythonie
+Summary(pl.UTF-8):   pyrepl - zastÄ™pca readline w Pythonie
 Name:		python-%{module}
 Version:	0.8.1
 Release:	2
@@ -36,29 +36,29 @@ pyrepl - a readline-a-like in Python. Its key features are:
   (it's a bit like a cross between readline and emacs's mini-buffer),
 - unicode support (given terminal support).
 
-%description -l pl
-pyrepl jest modu³em umo¿liwiaj±cym zast±pienie modu³u readline modu³em
-posiadaj±cym nastêpuj±cych cechy:
+%description -l pl.UTF-8
+pyrepl jest moduÅ‚em umoÅ¼liwiajÄ…cym zastÄ…pienie moduÅ‚u readline moduÅ‚em
+posiadajÄ…cym nastÄ™pujÄ…cych cechy:
 
-- rozs±dna obs³uga edycji w wielu liniach,
+- rozsÄ…dna obsÅ‚uga edycji w wielu liniach,
 - historia wraz z jej przeszukiwaniem,
-- podpowiadanie wy¶wietlaj±ce dostêpne opcje,
-- ca³kiem du¿y podzbiór skrótów klawiszowych trybu emacsa readline,
-  wraz z ³atw± metod± rozszerzania tego zbioru,
+- podpowiadanie wyÅ›wietlajÄ…ce dostÄ™pne opcje,
+- caÅ‚kiem duÅ¼y podzbiÃ³r skrÃ³tÃ³w klawiszowych trybu emacsa readline,
+  wraz z Å‚atwÄ… metodÄ… rozszerzania tego zbioru,
 - liberalna (w stylu Pythona) licencja,
-- brak zmiennych globalnych, co umo¿liwia uruchomienie dwóch lub
-  wiêcej niezale¿nych czytników bez martwienia siê nak³adaniem na siebie
+- brak zmiennych globalnych, co umoÅ¼liwia uruchomienie dwÃ³ch lub
+  wiÄ™cej niezaleÅ¼nych czytnikÃ³w bez martwienia siÄ™ nakÅ‚adaniem na siebie
   historii,
-- ³atwa kontrola umo¿liwiaj±ca bezbolesn± integracjê pyrepl w pêtli
-  zdarzeñ aplikacji u¿ytkownika,
-- ogólnie rzecz bior±c - wiêksza interakcja z u¿ytkownikiem ni¿ w
-  module readline (modu³ rozwin±³ siê w co¶ pomiêdzy readline a
+- Å‚atwa kontrola umoÅ¼liwiajÄ…ca bezbolesnÄ… integracjÄ™ pyrepl w pÄ™tli
+  zdarzeÅ„ aplikacji uÅ¼ytkownika,
+- ogÃ³lnie rzecz biorÄ…c - wiÄ™ksza interakcja z uÅ¼ytkownikiem niÅ¼ w
+  module readline (moduÅ‚ rozwinÄ…Å‚ siÄ™ w coÅ› pomiÄ™dzy readline a
   mini-bufferem znanym z emacsa),
-- obs³uga uniode (je¶li obs³ugiwane przez terminal).
+- obsÅ‚uga uniode (jeÅ›li obsÅ‚ugiwane przez terminal).
 
 %package utils
 Summary:	Utilities for Python pyrepl module
-Summary(pl):	Narzêdzia modu³u Pythona pyrepl
+Summary(pl.UTF-8):   NarzÄ™dzia moduÅ‚u Pythona pyrepl
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
@@ -66,9 +66,9 @@ Requires:	%{name} = %{version}-%{release}
 This package contains pythoni utility - an interactive Python
 interpreter with pyrepl module embedded.
 
-%description utils -l pl
-Pakiet ten zawiera narzêdzie pythoni - interaktywny interpreter
-Pythona z osadzonym weñ modu³em pyrepl.
+%description utils -l pl.UTF-8
+Pakiet ten zawiera narzÄ™dzie pythoni - interaktywny interpreter
+Pythona z osadzonym weÅ„ moduÅ‚em pyrepl.
 
 %prep
 %setup -q -n %{module}-%{version}
