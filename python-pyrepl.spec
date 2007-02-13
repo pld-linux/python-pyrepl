@@ -2,7 +2,7 @@
 %define 	module	pyrepl
 
 Summary:	pyrepl - a readline-a-like in Python
-Summary(pl.UTF-8):   pyrepl - zastępca readline w Pythonie
+Summary(pl.UTF-8):	pyrepl - zastępca readline w Pythonie
 Name:		python-%{module}
 Version:	0.8.1
 Release:	2
@@ -58,7 +58,7 @@ posiadającym następujących cechy:
 
 %package utils
 Summary:	Utilities for Python pyrepl module
-Summary(pl.UTF-8):   Narzędzia modułu Pythona pyrepl
+Summary(pl.UTF-8):	Narzędzia modułu Pythona pyrepl
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
