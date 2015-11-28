@@ -81,8 +81,7 @@ python setup.py build_ext
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{py_sitescriptdir},%{_bindir}}
 
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
+%py_install \
 	--install-lib=%{py_sitescriptdir} \
 	--optimize=2
 
